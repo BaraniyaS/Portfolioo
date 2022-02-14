@@ -652,6 +652,8 @@ section .container {
   padding: 45px 25px;
   transition: all ease-in-out 0.3s;
   border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .services .icon-box .icon {
@@ -700,27 +702,6 @@ section .container {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
-}
-
-.services .icon-box:hover {
-  background: #149ddd;
-  border-color: #149ddd;
-}
-
-.services .icon-box:hover .icon {
-  background: #fff;
-}
-
-.services .icon-box:hover .icon i {
-  color: #149ddd;
-}
-
-.services .icon-box:hover .icon::before {
-  background: #0689c5;
-}
-
-.services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: #fff;
 }
 
 /*--------------------------------------------------------------
