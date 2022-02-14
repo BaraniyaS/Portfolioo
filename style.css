@@ -123,6 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   #header .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -648,8 +649,9 @@ section .container {
 .services .icon-box {
   text-align: center;
   background: rgba(204, 204, 204, 0.1);
-  padding: 80px 20px;
+  padding: 45px 25px;
   transition: all ease-in-out 0.3s;
+  border-radius: 10px;
 }
 
 .services .icon-box .icon {
